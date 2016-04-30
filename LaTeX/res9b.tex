@@ -1,24 +1,25 @@
 % LaTeX resume using res.cls
 \documentclass[line,margin]{res} 
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
 
 \begin{document}
 
-\name{{\LARGE Matthew Y. Zhan}}
+
+\name{{\LARGE Matthew Zhan}}
 
 % \address used twice to have two lines of address
 \address{Phone: (512) 577-7517 Email: matthewzhan@utexas.edu}
-\address{LinkedIn: }
-% \address{2900 S Lakeline Blvd., Cedar Park, TX 78613}
+\address{LinkedIn: \url{http://lnked.in/zhan}}
+%\address{2900 S Lakeline Blvd., Cedar Park, TX 78613}
 
  
 \begin{resume}
  
  
-%\section{OBJECTIVE}       A position in the field of computers with special 
-%                interests in business applications programming, 
-                information processing, and management systems. 
+%\section{SUMMARY}       Dedicated software engineer seeking other passionate and talented people to mesh with and develop exciting programs to change our world.
  
  
 \section{EDUCATION} {\sl Bachelor of Engineering,} Electrical and Computer Engineering \\
@@ -27,47 +28,104 @@
 		% Computer Modern (default) font
 			   The University of Texas at Austin \\
                 August 2012 - May 2016 \\
-                Concentration: Software Engineering \\
- 
- 
-\section{COMPUTER \\ SKILLS} {\sl Languages \& Software:} COBOL, IFPS, Focus, 
-         Megacalc, Pascal, Modula2, C, APL, SNOBOL, 
-                FORTRAN, LISP, SPIRES, BASIC, VSPC Autotab, 
-                IBM 370 Assembler, Lotus 1-2-3. \\
-                {\sl Operating Systems:} MTS, TSO, Unix.
- 
-\section{EXPERIENCE} {\sl Business Applications Programmer} \hfill Fall 1990 \\
-                Allied-Signal Bendix Friction Materials Division, 
-                Financial Planning Department, Latham, NY
-                 \begin{itemize}  \itemsep -2pt % reduce space between items
-                 \item Developed four "user friendly" forecasting 
-                    systems each of which produces 18 to 139 
-                    individual reports. 
-                \item   Developed or improved almost all IFPS 
-                    programs used for financial reports. 
-                \end{itemize}
- 
-                {\sl Research Programmer} \hfill            Summer 1990 \\
-                Psychology Department, Rensselaer Polytechnic 
-                Institute 
-                 \begin{itemize}  \itemsep -2pt %reduce space between items
-                 \item Performed computer aided statistical analysis 
-                    of data. 
-                 \end{itemize} 
-                {\sl Assistant Manager} \hfill        Summers 1988-89 \\
-                Thunder Restaurant, Canton, CT
-                  \begin{itemize}
-                   \item Recognized need for, developed, and wrote 
-                    employee training manual. Performed various 
-                    duties including cooking, employee training, 
-                    ordering, and inventory control. 
-                   \end{itemize} 
- 
-\section{COMMUNITY \\ SERVICE}  Organized and directed the 1988 and 1989 Grand 
-                 Marshall Week \newline ``Basketball Marathon.'' A 24 hour 
-                charity event to benefit the Troy Boys Club. Over 
-                250 people participated each year. 
+                GPA: 3.59 \\
+                Concentration: Software Engineering
 
+                \section{RELATED COURSES}
+                \iffalse
+                \begin{tabular}{ l l }
+
+
+                \end{tabular}
+                \fi
+
+                \begin{tabularx}{\textwidth}{@{}XX@{}}
+
+                  Software Engineering & Software Design II \\
+
+                  Algorithms & Communications \\
+
+                  Real-time Operating Systems & Concurrent and Distributed Systems \\
+
+                  Computer Architecture & Big Data and Machine Learning\\
+
+                  Requirements Engineering & Digital Logic Design \\
+
+                  Differential Equations & Linear Systems and Signals \\
+
+                  Probability & Discrete Math \\
+
+                \end{tabularx}
+
+
+                
+
+
+                
+ 
+\section{COMPUTER \\ SKILLS} {\sl Languages \& Software:} Java, C++, C, Qt Framework, 2D Graphics, UX, Python, MySQL, Assembly \\
+        {\sl Operating Systems:} Windows, Linux, OS X \\
+        {\sl Source Control:} GIT
+ 
+        \section{EXPERIENCE} {\sl Image Processing Engineer at MetaVi Labs} \hfill October 2015 - Present \\
+        Austin, TX 
+
+
+        \begin{itemize}  \itemsep -2pt % reduce space between items
+        \item         Harmony Platform - Assay Analyzer 
+                \item Improved edge case detection for tube formation assays, reducing the processing time of videos by up to 20 minutes
+                \item Refactored the error logging process into a module that standardized and simplified debugging for existing
+                \end{itemize}
+                
+                {\sl Software Engineer Intern at Polycom} \hfill            July 2015 - September 2015\\        
+                Austin, TX 
+                \begin{itemize}  \itemsep -2pt %reduce space between items
+                  \item         Firmware Testing Automation - Visual Statechart 
+                 \item Developed an open-source, raster graphics editor for hierarchical finite state machines using C++ and the Qt Framework
+                 \item Designed and implemented a code exporter that converts state machines directly to skeleton C++ class and header files, reducing coding time by up to three hours
+                 \item Rapidly evolved the program with impactful updates by adapting requirements from consultations and meetings with end users; drastically improved the speed of producing complex and lucid state machine designs
+                 \item \textit{Website: }  \url{https://github.com/daviddrell/visualsc}
+                 \end{itemize}
+
+                 {\sl Software Engineer Intern at The Center of Intelligent Spatial Computing for Water/Energy Science (CISC)} \hfill June 2014 - August 2014\\
+                 Fairfax, Virginia
+                 \begin{itemize}
+                 \item Big Geoscience Data - Cloud Framework
+                 \item Simplified analysis of large, cloud-stored geodata files by developing middleware to quickly render geomaps using interpolation algorithms
+                 \item Assessed behavior patterns of app-users using GPS data to profile their movement
+                 \item Accelerated development progress by regularly exchanging critique in meetings
+                 \end{itemize}
+
+                 {\sl Tutor at The University of Texas at Austin} \hfill August 2013 - May 2014\\
+                 Austin, TX
+                 \begin{itemize}
+                 \item Undergrad Tutor - Electrical Engineering
+                 \item Mentored EE students to hone their knowledge, effectively solve problems, and efficiently study for tests
+                 \item Reduced challenging problems as a team of tutors and students, collaborating on thorough and simple strategies for solving problems
+                 \end{itemize}
+ 
+%\section{COMMUNITY \\ SERVICE}  Organized and directed the 1988 and 1989 Grand 
+%                 Marshall Week \newline ``Basketball Marathon.'' A 24 hour 
+%                charity event to benefit the Troy Boys Club. Over 
+%                250 people participated each year. 
+                 \section{PUBLICATIONS}
+                 Matthew Zhan, Zhenlong Li, Chaowei Yang, Baoxuan Jin, Manzhu Yu, Kai Liu, Min Sun, ``Enabling Big Geoscience Data Analytics with a Cloud-Based, MapReduce-Enabled and Service-Oriented Workflow Framework,'' Research Gate, March 12, 2015.
+
+                 \section{PROJECTS}
+                         \textbf {ReQ} \\                 
+                         Description: Lead a team to develop a two-interface mobile application to enhance the dining experience. The idea behind the system is to provide a communication channel between diners and the restaurant. The diners have an app on their phone and can connect to their current restaurant's tablet app. The waiter's interface shows a top-down layout of the tables and displays real-time notifications of common diner needs. From the phone app, diners can instantly order from the menu, get the check, ask for refills, and more without having to call over a waiter, saving valuable time for diners and the restaurant.
+
+                         \textbf{Rho} \\
+                         Description: Developed a 2D platform shooter game built on a realistic physics engine. Practically infinite variations of situations with gravity, grappling hooks, and over 10 unique physics-based weapons.
+
+                         \textbf{Kepler Orbit} \\
+                         Description: Developed a 2D physics sandbox that simulates the effect of gravity between bodies of mass. Progammed additional features for artistic expression, including line tracing and glowing. Released the app for iOS on the App Store. \\
+                         \textit{Website: } \url{https://itunes.apple.com/us/app/kepler-orbit/id508039840?mt=8}
+                         
+                         
+                         
+                 
+\iffalse             
 \section{EXTRA-CURRICULAR \\ ACTIVITIES}             
             Elected {\it House Manager}, Rho Phi Sorority \\
             Elected {\it Sports Chairman} \\
@@ -75,7 +133,7 @@
                 Headed delegation to Rho Phi Congress \\
                 Junior varsity basketball team \\
                 Participant, seven intramural athletic teams 
- 
+ \fi
 
 \end{resume}
 \end{document}
