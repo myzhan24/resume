@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 APR 2016 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 APR 2016 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -38,7 +38,10 @@ No auxiliary output files.
 \resumewidth=\dimen104
 \@columnwidth=\dimen105
 \c@numberofcolumns=\count87
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/newcent.sty
+Package: newcent 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -191,8 +194,13 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Try loading font information for OT1+pnc on input line 8.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pnc.fd
+File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
+)
 \AtBeginShipoutBox=\box26
 Package hyperref Info: Link coloring OFF on input line 8.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -204,46 +212,68 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <12> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 19.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 19.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 19.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+pnc on input line 75.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omspnc.fd
+File: omspnc.fd 
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (9.92622pt too wide) in paragraph at lines 112--113
+\OT1/pnc/m/n/10 Min Sun, ``En-abling Big Geo-science Data An-a-lyt-ics with a C
+loud-Based, MapReduce-
+ []
+
+
+Overfull \hbox (10.13539pt too wide) in paragraph at lines 121--124
+\OT1/pnc/m/it/10 Website:  []$\OT1/pcr/m/n/10 https : / / itunes . apple . com 
+/ us / app / kepler-[]orbit / id508039840 ?
+ []
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
- [2]
+[2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 139.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
  ) 
 Here is how much of TeX's memory you used:
- 4401 strings out of 493089
- 65829 string characters out of 6134842
- 149456 words of memory out of 5000000
- 7907 multiletter control sequences out of 15000+600000
- 5727 words of font info for 21 fonts, out of 8000000 for 9000
+ 4482 strings out of 493089
+ 67123 string characters out of 6134842
+ 148598 words of memory out of 5000000
+ 7973 multiletter control sequences out of 15000+600000
+ 11819 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,21p,651b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on res9b.pdf (2 pages, 96737 bytes).
+ 29i,8n,21p,651b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/urw/ncntrsbk/uncri8a.pfb>
+Output written on res9b.pdf (2 pages, 75243 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
